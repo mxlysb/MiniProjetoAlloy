@@ -8,7 +8,7 @@ No sistema, passageiros só podem ser alunos, professores e servidores da UFCG. 
 
 Alunos, professores e servidores podem ser motoristas também, sendo cadastrados como tal no sistema. 
 
-O sistema armazenará um registro de corridas a pagar e a receber, independente do valor. Quem usar o serviço carona cria um débito, e quem servir como motorista recebe um crédito - no final do mês essa contabilidade é feita pra saber se o usuário deve pagar ou receber.
+O sistema armazena um registro de corridas que paga e a recebe, independente do valor. Quem usar o serviço carona cria um débito, e quem servir como motorista recebe um crédito - no final do mês essa contabilidade é feita pra saber se o usuário deve pagar ou receber.
 
 Cada carro poderá receber três passageiros, além do motorista. As corridas podem ser agendadas em 4 horários:
 
@@ -16,4 +16,7 @@ ida para UFCG: 7:30, 9:30, 13:30, 15:30
 saída da UFCG: 10:00, 12:00, 16:00, 18:00
 Para simplificar, assuma que todas as corridas acontecem todos os dias da semana, no horário agendado.
 
-Considere apenas 5 regiões: Centro, Leste, Oeste, Norte e Sul
+Considerando apenas 5 regiões: Centro, Leste, Oeste, Norte e Sul
+
+## Importante:
+- **Para executar no linux:** Digite => java -jar org.alloytools.alloy.dist.jar
